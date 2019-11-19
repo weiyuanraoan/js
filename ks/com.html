@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>系统登录</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <form action="check.php" method="post" class="frm login" name="f1">
+        <h1>公司系统登录</h1>
+        <p>
+            <input type="text" name="username" class="text" placeholder="用户名">
+        </p>
+        <p>
+            <input type="password" name="password" class="text" placeholder="密码">
+        </p>
+        <p>
+            <button type="button" class="btn" onclick="check();">登录</button>
+            <a href="reg.php" class="btn">注册</a>
+        </p>
+    </form>
+    <script src="js/login.js"></script>
+</body>
+</html>

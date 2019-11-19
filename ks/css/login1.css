@@ -1,0 +1,52 @@
+body{
+	 /*background-color: #fcc;*/
+     background:url('../images/1.jpg');
+       background-repeat:no-repeat;
+       background-size: cover;
+
+}
+a{
+	color: black;
+	font-size: 24px;
+	border: 1px;
+	display: inline-block;
+	margin-left: 110px;
+
+}
+.a1{
+	color: black;
+	font-size: 24px;
+	border: 1px;
+	display: inline-block;
+	margin-left: 120px;
+}
+a:hover{
+	background-color: #fff;
+}  
+.login{
+	 height: 300px;
+	 width: 400px;
+            /*让登录框居中*/
+            position: absolute;
+            top: 50%;left: 50%;
+            margin-left: -200px;
+            margin-top: -150px;
+	border: 1px solid #ada;
+}
+.com{
+		 height: 300px;
+	 width: 400px;
+            /*让登录框居中*/
+            position: absolute;
+            top: 50%;left: 50%;
+            margin-left: -200px;
+            margin-top: -150px;
+	border: 1px solid #ada;
+}
+h1{
+	text-align: center;
+	display: inline-block;
+	margin-left: 75px;
+}
+     
+

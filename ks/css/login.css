@@ -1,0 +1,100 @@
+*{margin: 0;padding: 0;}
+        body{
+            background-color: #fcc;
+            background-repeat:no-repeat;
+            background-position: top center;
+
+        }
+                .one{
+            margin: 6px;
+        }
+        .two{
+            margin: 6px;
+
+        }
+        .three{
+            margin: 6px;
+        }
+        .frm{
+            width: 400px;
+            
+            background-color: rgba(255,255,255,0.7);
+            
+            /*border-radius: 5px;*/
+            box-shadow: 1px 1px 4px rgba(200,200,0,.5);
+        }
+        .frm h1{
+            font-size: 16px;
+            border-bottom: 1px solid #aaa;
+            padding: 16px 10px 10px;
+            margin-bottom: 15px;
+        }
+        .frm p{
+            margin: 10px 30px;
+        }
+        .login{
+            height: 260px;
+            /*让登录框居中*/
+            position: absolute;
+            top: 50%;left: 50%;
+            margin-left: -200px;
+            margin-top: -110px;
+        }
+        .reg{
+            height: 300px;
+            /*让登录框居中*/
+            position: absolute;
+            top: 50%;left: 50%;
+            margin-left: -200px;
+            margin-top: -150px;
+        }
+        .text{
+            width: 100%;
+            padding: 0px 12px;
+            font-size: 14px;
+            line-height: 34px;
+            color: #555;
+            background-color: rgba(255,255,255,0.7);
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .btn{
+            /* display: inline-block;
+            margin: 0;padding: 0;
+            height: 34px;
+            line-height: 34px;
+            width: 100px;
+            font-size: 14px;
+            background-color: rgba(255,255,255,0.7);
+            color: #555;
+            text-decoration: none;
+            text-align: center;
+            border: 1px solid #888;
+            box-sizing: content-box; */
+            display: inline-block; 
+            width: 160px; 
+            line-height: 40px; 
+            background-color: #8C63A5; 
+            /*border: 1px solid #39b94e;*/
+            border: none;
+            font-size: 14px;
+            color: #fff; 
+            text-align: center; 
+            text-decoration: none; 
+        }
+        .sex{
+            padding: 0px 12px;
+            font-size: 14px;
+            line-height: 34px;
+            color: #555;
+            background-color: rgba(255,255,255,0.7);
+            box-sizing: border-box;
+        }
+        .dept{
+            padding: 0px 12px;
+            font-size: 14px;
+            line-height: 34px;
+            color: #555;
+            background-color: rgba(255,255,255,0.7);
+            border:1px solid #aaa;
+        }
